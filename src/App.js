@@ -8,7 +8,7 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="Calgary" />
         <footer>
-          Project by Nimi Dada and open sourced on{" "}
+          Project by Nimi Dada and open-sourced on{" "}
           <a
             href="https://github.com/Bunny-buzz/react-buzz-weather-app"
             target="_blank"

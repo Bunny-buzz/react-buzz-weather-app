@@ -13,11 +13,12 @@ export default function Weather(props) {
       ready: true,
       temperature: response.data.main.temp,
       date: new Date(response.data.dt * 1000),
-      wind: response.data.wind.speed,
+      wind: Math.round(response.data.wind.speed),
       humidity: response.data.main.humidity,
       city: response.data.name,
       description: response.data.weather[0].description,
       icon: response.data.weather[0].icon,
+      feels_like: Math.round(response.data.main.feels_like),
     });
   }
   function search() {
@@ -57,6 +58,11 @@ export default function Weather(props) {
         </form>
         <WeatherInfo data={weatherData} />
         <Forecast city={weatherData.city} />
+        <small className="checker">
+          <a href="https://weather.com/en-CA/weather/today/l/CAON4756:1:CA">
+            Weather Checker
+          </a>
+        </small>
       </div>
     );
   } else {
