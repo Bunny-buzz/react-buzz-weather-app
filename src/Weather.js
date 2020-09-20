@@ -59,7 +59,10 @@ export default function Weather(props) {
         <WeatherInfo data={weatherData} />
         <Forecast city={weatherData.city} />
         <small className="checker">
-          <a href="https://weather.com/en-CA/weather/today/l/CAON4756:1:CA">
+          <a
+            href="https://weather.com/en-CA/weather/today/l/CAON4756:1:CA"
+            rel="noopener noreferrer"
+          >
             Weather Checker
           </a>
         </small>
