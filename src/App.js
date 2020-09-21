@@ -12,6 +12,7 @@ export default function App() {
           <a
             href="https://github.com/Bunny-buzz/react-buzz-weather-app"
             target="_blank"
+            rel="noopener noreferrer"
           >
             GitHub
           </a>
