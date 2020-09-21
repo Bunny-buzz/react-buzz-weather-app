@@ -1,6 +1,6 @@
 .Forecast {
   text-align: center;
-  margin: 10px;
+  margin: 3px 20px;
 }
 .Forecast canvas {
   display: block;
@@ -9,10 +9,8 @@
 }
 
 .list {
-  margin: 20px auto;
-  line-height: 20px;
-  font-size: 10px;
+  margin: 10px auto;
+  line-height: 30px;
   background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
-  font-size: 10px;
   box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
 }
